@@ -1,0 +1,20 @@
+{
+  "name": "adrien-md",
+  "version": "1.0.0",
+  "description": "Private WhatsApp multi-device bot with pairing code, QR, and session ID endpoints.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "pino": "^9.4.0",
+    "qrcode": "^1.5.4"
+  }
+}
